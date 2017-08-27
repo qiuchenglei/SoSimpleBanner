@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.qiu.sosimplebanner.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.github.qiu.sosimplebanner.banner.CommonBanner
+            android:id="@+id/common_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:scale="0.6">
+
+        </com.github.qiu.sosimplebanner.banner.CommonBanner>
+
+        <com.github.qiu.sosimplebanner.banner.custom.CustomBanner1
+            android:id="@+id/custom_banner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:scale="0.6">
+
+        </com.github.qiu.sosimplebanner.banner.custom.CustomBanner1>
+
+        <com.github.qiu.sosimplebanner.banner.custom.CustomBanner2
+            android:id="@+id/custom_banner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:scale="0.6">
+
+        </com.github.qiu.sosimplebanner.banner.custom.CustomBanner2>
+    </LinearLayout>
+</ScrollView>

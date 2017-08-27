@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CirclesIndicator">
+        <attr name="circleColorSelected" format="color" />
+        <attr name="circleColorUnselected" format="color" />
+        <attr name="circleSizeSelected" format="dimension" />
+        <attr name="circleSizeUnselected" format="dimension" />
+        <attr name="space" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseBanner">
+        <attr name="scale" />
+    </declare-styleable>
+
+</resources>
